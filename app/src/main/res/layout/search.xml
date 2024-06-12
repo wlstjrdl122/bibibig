@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#FFCCCC" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="성적 조회"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:textStyle="bold"/>
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="70dp"
+            android:text="메인 화면"
+            android:textSize="20dp"
+            android:id="@+id/btnMain"
+            android:background="@drawable/round"
+            android:layout_margin="20dp"
+            android:textStyle="bold"/>
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="70dp"
+            android:text="성적 입력"
+            android:textSize="20dp"
+            android:background="@drawable/round"
+            android:textStyle="bold"
+            android:id="@+id/btnInput"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:background="@drawable/round"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:textSize="23dp"
+                android:text="학년"
+                android:textColor="@color/black"
+                android:background="@drawable/line"
+                android:gravity="center" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:textSize="23dp"
+                android:text="학기"
+                android:textColor="@color/black"
+                android:background="@drawable/line"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:textSize="23dp"
+                android:text="과목"
+                android:textColor="@color/black"
+                android:background="@drawable/line"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:textSize="23dp"
+                android:text="담당교수"
+                android:background="@drawable/line"
+                android:textColor="@color/black"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:textSize="23dp"
+                android:text="성적"
+                android:background="@drawable/line"
+                android:textColor="@color/black"
+                android:gravity="center"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="--성적 조회--"
+                android:textSize="23dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:textSize="23dp"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:background="@drawable/line"
+                android:id="@+id/result1"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:textSize="23dp"
+                android:textColor="@color/black"
+                android:background="@drawable/line"
+                android:gravity="center"
+                android:id="@+id/result2"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:textSize="23dp"
+                android:background="@drawable/line"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:id="@+id/result3"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:textSize="23dp"
+                android:background="@drawable/line"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:id="@+id/result4"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:textSize="23dp"
+                android:textColor="@color/black"
+                android:background="@drawable/line"
+                android:gravity="center"
+                android:id="@+id/result5"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="조회"
+                android:layout_gravity="left"
+                android:layout_marginHorizontal="10dp"
+                android:background="@drawable/roundwhite"
+                android:id="@+id/btnSearch"/>
+
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</LinearLayout>
+
