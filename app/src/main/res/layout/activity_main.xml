@@ -31,23 +31,22 @@
            android:textSize="30dp"
            android:textStyle="bold"/>
        <Button
+           android:id="@+id/goCheckGradesBtn"
            android:layout_width="250dp"
            android:layout_height="70dp"
            android:text="성적 조회"
            android:textSize="20dp"
-           android:id="@+id/btn1"
            android:background="@drawable/round"
            android:layout_margin="20dp"
            android:textStyle="bold"/>
        <Button
+           android:id="@+id/goInputGradesBtn"
            android:layout_width="250dp"
            android:layout_height="70dp"
            android:text="성적 입력"
            android:textSize="20dp"
            android:background="@drawable/round"
-           android:textStyle="bold"
-           android:id="@+id/btn2"
-           />
+           android:textStyle="bold" />
 
 
    </LinearLayout>
@@ -132,13 +131,13 @@
                 android:textStyle="bold"/>
 
             <TextView
+                android:id="@+id/schoolLevlTextView"
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
                 android:textSize="23dp"
                 android:textColor="@color/black"
                 android:gravity="center"
-                android:background="@drawable/line"
-                android:id="@+id/result1"/>
+                android:background="@drawable/line" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -147,7 +146,7 @@
                 android:textColor="@color/black"
                 android:background="@drawable/line"
                 android:gravity="center"
-                android:id="@+id/result2"/>
+                android:id="@+id/smesterTextView"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -156,7 +155,7 @@
                 android:background="@drawable/line"
                 android:textColor="@color/black"
                 android:gravity="center"
-                android:id="@+id/result3"/>
+                android:id="@+id/subjectTextView"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -165,7 +164,7 @@
                 android:background="@drawable/line"
                 android:textColor="@color/black"
                 android:gravity="center"
-                android:id="@+id/result4"/>
+                android:id="@+id/professorTextView"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -174,7 +173,7 @@
                 android:textColor="@color/black"
                 android:background="@drawable/line"
                 android:gravity="center"
-                android:id="@+id/result5"/>
+                android:id="@+id/gradeTextView"/>
 
 
 

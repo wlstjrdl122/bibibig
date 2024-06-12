@@ -35,18 +35,18 @@
             android:layout_height="70dp"
             android:text="성적 조회"
             android:textSize="20dp"
-            android:id="@+id/btn1"
+            android:id="@+id/goCheckGradesBtn"
             android:background="@drawable/round"
             android:layout_margin="20dp"
             android:textStyle="bold"/>
         <Button
             android:layout_width="250dp"
             android:layout_height="70dp"
-            android:text="성적 입력"
+            android:text="메인 화면"
             android:textSize="20dp"
             android:background="@drawable/round"
             android:textStyle="bold"
-            android:id="@+id/btn2"
+            android:id="@+id/goMainBtn"
             />
 
 

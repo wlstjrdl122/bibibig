@@ -17,7 +17,7 @@
             android:label="SearchActivity"
             android:theme="@style/Theme.MyApplication"/>
         <activity
-            android:name=".MainActivity2"
+            android:name=".InputActivity"
             android:exported="false"
             android:label="@string/title_activity_main2"
             android:theme="@style/Theme.MyApplication" />

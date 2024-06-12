@@ -31,25 +31,23 @@
             android:textSize="30dp"
             android:textStyle="bold"/>
         <Button
+            android:id="@+id/goMainBtn"
             android:layout_width="250dp"
             android:layout_height="70dp"
             android:text="메인 화면"
             android:textSize="20dp"
-            android:id="@+id/btnMain"
             android:background="@drawable/round"
             android:layout_margin="20dp"
             android:textStyle="bold"/>
         <Button
+            android:id="@+id/goInputGradesBtn"
             android:layout_width="250dp"
             android:layout_height="70dp"
             android:text="성적 입력"
             android:textSize="20dp"
             android:background="@drawable/round"
             android:textStyle="bold"
-            android:id="@+id/btnInput"
             />
-
-
     </LinearLayout>
 
     <LinearLayout
@@ -184,9 +182,6 @@
                 android:layout_marginHorizontal="10dp"
                 android:background="@drawable/roundwhite"
                 android:id="@+id/btnSearch"/>
-
-
-
 
         </LinearLayout>
     </LinearLayout>

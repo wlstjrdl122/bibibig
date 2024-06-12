@@ -25,8 +25,8 @@ public class SearchActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.search);
-         btnMain=findViewById(R.id.btnMain);
-         btnInput= findViewById(R.id.btnInput);
+         btnMain=findViewById(R.id.goMainBtn);
+         btnInput= findViewById(R.id.goInputGradesBtn);
          btnSearch = findViewById(R.id.btnSearch);
          btnMain.setOnClickListener(new View.OnClickListener() {
              @Override
