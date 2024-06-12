@@ -30,6 +30,11 @@
            android:textColor="@color/black"
            android:textSize="30dp"
            android:textStyle="bold"/>
+
+<!--       헷갈리지 않도록 설계하는 게 좋아보여요-->
+<!--       모든 페이지가 비슷한 ui를 가졌는데, 버튼 텍스트마저 이 페이지가 뭘 하는 페이지인지 헷갈려요-->
+<!--       각 페이지별 제목?텍스트만 바꿔도 충분히 해결될 거 같아요.-->
+
        <Button
            android:id="@+id/goCheckGradesBtn"
            android:layout_width="250dp"
